@@ -25,9 +25,9 @@ class MYPDF extends TCPDF {
         //$this->Cell(0, 0, "", 'T', 0, 'L');
         $this->Cell(0, 10, "CareCRM GmbH", 0, false, 'C', 0, '', 0, false, 'T', 'M');
         $this->SetY(-30);
-        $this->Cell(0, 10, "Luise-Montag-Gasse 1/8/6, 1110 Wien", 0, false, 'C', 0, '', 0, false, 'T', 'M');
+        $this->Cell(0, 10, "Firmenstraße 12, 1110 Wien", 0, false, 'C', 0, '', 0, false, 'T', 'M');
         $this->SetY(-25);
-        $this->Cell(0, 10, "M: m.praxm@gmail.com   |   T: +43 660 5634055", 0, false, 'C', 0, '', 0, false, 'T', 'M');
+        $this->Cell(0, 10, "M: firma@gmail.com   |   T: +43 660 1234555", 0, false, 'C', 0, '', 0, false, 'T', 'M');
         $this->SetY(-20);
         $this->Cell(0, 10, "IBAN: AT00 1234 5678 9123 4567   |   BIC: XXXATABCD", 0, false, 'C', 0, '', 0, false, 'T', 'M');
         $this->SetY(-40);
